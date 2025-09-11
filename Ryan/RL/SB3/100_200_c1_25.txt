@@ -1,0 +1,247 @@
+Fixed VRP Results - Vehicle Cost 50.0
+============================================================
+
+Model: 100_200
+Test file: ../../../dataset/files/c1_25.txt
+Episodes: 20
+
+Episode 1 (Seed: 12345):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+
+Episode 2 (Seed: 12524):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+
+Episode 3 (Seed: 12703):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+
+Episode 4 (Seed: 12882):
+  Total Reward: -285.6
+  Objective Cost: 435.58
+  Distance: 285.58
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 25 → 10 → 7 → 3 → 5 → 4 → 6 → 9 → 2 → 1 → 0
+    Vehicle 2: 0 → 22 → 23 → 24 → 11 → 8 → 13 → 17 → 18 → 19 → 15 → 14 → 0
+    Vehicle 3: 0 → 12 → 16 → 0
+
+Episode 5 (Seed: 13061):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+
+Episode 6 (Seed: 13240):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+
+Episode 7 (Seed: 13419):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+
+Episode 8 (Seed: 13598):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+
+Episode 9 (Seed: 13777):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+
+Episode 10 (Seed: 13956):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+
+Episode 11 (Seed: 14135):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+
+Episode 12 (Seed: 14314):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+
+Episode 13 (Seed: 14493):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+
+Episode 14 (Seed: 14672):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+
+Episode 15 (Seed: 14851):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+
+Episode 16 (Seed: 15030):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+
+Episode 17 (Seed: 15209):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+
+Episode 18 (Seed: 15388):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+
+Episode 19 (Seed: 15567):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+
+Episode 20 (Seed: 15746):
+  Total Reward: -271.7
+  Objective Cost: 421.71
+  Distance: 271.71
+  Vehicles: 3
+  Completion: 100.0%
+  Steps: 27
+  Routes:
+    Vehicle 1: 0 → 20 → 21 → 22 → 23 → 24 → 10 → 11 → 8 → 9 → 6 → 4 → 3 → 7 → 1 → 5 → 0
+    Vehicle 2: 0 → 25 → 13 → 17 → 18 → 19 → 15 → 16 → 0
+    Vehicle 3: 0 → 2 → 12 → 14 → 0
+

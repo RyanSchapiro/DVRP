@@ -1,0 +1,92 @@
+{
+  "c1_100.txt": {
+    "instance": "c1_100.txt",
+    "result": "Solution results\n================\n    # routes: 10\n     # trips: 10\n   # clients: 100\n   objective: 1295\n    distance: 795\n    duration: 0\n# iterations: 9549\n    run-time: 60.00 seconds\n\nRoutes\n------\nRoute #1: 34 36 39 38 37 35 31 33 32\nRoute #2: 43 41 40 42 44 46 45 48 51 50 52 49 47\nRoute #3: 59 60 58 56 53 54 55 57\nRoute #4: 67 65 63 74 62 66\nRoute #5: 69 68 64 61 72 80 79 77 73 70 71 76 78 81\nRoute #6: 90 87 86 83 82 84 85 88 89 91\nRoute #7: 98 96 95 94 92 93 97 100 99 1\nRoute #8: 75 2 4 6 9 11 8 7 3 5\nRoute #9: 13 17 18 19 15 16 14 12 10\nRoute #10: 21 23 26 28 30 29 27 25 24 22 20\n",
+    "success": true
+  },
+  "c1_25.txt": {
+    "instance": "c1_25.txt",
+    "result": "Solution results\n================\n    # routes: 3\n     # trips: 3\n   # clients: 25\n   objective: 330\n    distance: 180\n    duration: 0\n# iterations: 51471\n    run-time: 60.00 seconds\n\nRoutes\n------\nRoute #1: 21 23 25 24 22 20\nRoute #2: 10 12 14 16 15 19 18 17 13\nRoute #3: 5 3 1 2 4 6 9 11 8 7\n",
+    "success": true
+  },
+  "c1_50.txt": {
+    "instance": "c1_50.txt",
+    "result": "Solution results\n================\n    # routes: 5\n     # trips: 5\n   # clients: 50\n   objective: 595\n    distance: 345\n    duration: 0\n# iterations: 27378\n    run-time: 60.00 seconds\n\nRoutes\n------\nRoute #1: 32 33 31 35 37 38 39 36 34\nRoute #2: 20 22 24 25 27 29 30 28 26 23 21\nRoute #3: 47 49 50 48 45 46 44 42 40 41 43\nRoute #4: 5 3 1 2 4 7 6 9 8 10\nRoute #5: 11 12 14 16 15 19 18 17 13\n",
+    "success": true
+  },
+  "c2_100.txt": {
+    "instance": "c2_100.txt",
+    "result": "Solution results\n================\n    # routes: 3\n     # trips: 3\n   # clients: 100\n   objective: 703\n    distance: 553\n    duration: 0\n# iterations: 13388\n    run-time: 60.00 seconds\n\nRoutes\n------\nRoute #1: 48 43 47 52 50 51 45 42 41 46 44 40 57 59 60 58 56 53 54 55 49 65 68 64 61 72 74 62 66 69\nRoute #2: 93 75 5 2 1 99 100 97 92 94 95 98 7 3 4 89 91 90 86 88 84 83 82 85 76 71 70 73 80 79 81 78 77 87 96 63 67\nRoute #3: 21 8 10 11 9 13 15 12 14 16 19 18 17 25 23 26 28 34 36 39 38 37 35 31 33 32 6 29 30 27 24 22 20\n",
+    "success": true
+  },
+  "c2_25.txt": {
+    "instance": "c2_25.txt",
+    "result": "Solution results\n================\n    # routes: 1\n     # trips: 1\n   # clients: 25\n   objective: 238\n    distance: 188\n    duration: 0\n# iterations: 140120\n    run-time: 60.00 seconds\n\nRoutes\n------\nRoute #1: 4 3 7 1 2 5 10 11 9 13 15 12 14 16 19 18 17 23 25 6 24 22 20 21 8\n",
+    "success": true
+  },
+  "c2_50.txt": {
+    "instance": "c2_50.txt",
+    "result": "Solution results\n================\n    # routes: 2\n     # trips: 2\n   # clients: 50\n   objective: 430\n    distance: 330\n    duration: 0\n# iterations: 25340\n    run-time: 60.00 seconds\n\nRoutes\n------\nRoute #1: 48 43 47 42 41 49 40 44 46 45 50 6 32 33 31 35 37 38 39 36 34 28 26 23 17 18 19 16 14 12 15 13 9 25 30 29 27 24\nRoute #2: 4 3 7 1 2 5 11 10 8 21 22 20\n",
+    "success": true
+  },
+  "r1_100.txt": {
+    "instance": "r1_100.txt",
+    "result": "Solution results\n================\n    # routes: 8\n     # trips: 8\n   # clients: 100\n   objective: 1189\n    distance: 789\n    duration: 0\n# iterations: 7427\n    run-time: 60.00 seconds\n\nRoutes\n------\nRoute #1: 60 5 61 16 86 38 14 44 91 100 37 92 95\nRoute #2: 94 59 98 85 93 99 96 6\nRoute #3: 53 40 21 72 74 22 41 2 57 15 43 42 87 97 13\nRoute #4: 58 73 75 56 23 67 39 25 55 4 54 26\nRoute #5: 27 88 62 11 19 47 48 82 7 52\nRoute #6: 50 33 81 51 9 35 71 65 66 20 30 70 1 69\nRoute #7: 89 18 83 84 17 45 8 46 36 49 64 63 90 32 10 31\nRoute #8: 28 76 77 3 79 78 34 29 24 68 80 12\n",
+    "success": true
+  },
+  "r1_25.txt": {
+    "instance": "r1_25.txt",
+    "result": "Solution results\n================\n    # routes: 2\n     # trips: 2\n   # clients: 25\n   objective: 429\n    distance: 329\n    duration: 0\n# iterations: 57365\n    run-time: 60.00 seconds\n\nRoutes\n------\nRoute #1: 6 5 17 16 14 15 22 23 25 4 21 2 13\nRoute #2: 18 8 7 19 11 10 20 9 1 3 24 12\n",
+    "success": true
+  },
+  "r1_50.txt": {
+    "instance": "r1_50.txt",
+    "result": "Solution results\n================\n    # routes: 4\n     # trips: 4\n   # clients: 50\n   objective: 713\n    distance: 513\n    duration: 0\n# iterations: 21904\n    run-time: 60.00 seconds\n\nRoutes\n------\nRoute #1: 6 37 16 44 38 14 42 43 15 2 13\nRoute #2: 26 12 3 29 24 25 4 39 23 41 22 21 40\nRoute #3: 27 31 10 32 30 20 9 35 34 33 50 1 28\nRoute #4: 5 17 45 8 46 47 36 49 11 19 48 7 18\n",
+    "success": true
+  },
+  "r2_100.txt": {
+    "instance": "r2_100.txt",
+    "result": "Solution results\n================\n    # routes: 2\n     # trips: 2\n   # clients: 100\n   objective: 718\n    distance: 618\n    duration: 0\n# iterations: 10769\n    run-time: 60.00 seconds\n\nRoutes\n------\nRoute #1: 53 40 58 13 94 6 96 99 93 85 61 16 86 38 14 44 91 100 37 98 59 92 95 97 87 42 43 15 57 2 21 73 72 74 22 41 75 56 23 67 39 25 55 4 54 24 29 68 80 12 26 28\nRoute #2: 27 69 1 50 76 77 3 79 33 81 51 9 78 34 35 71 65 66 20 30 70 31 88 7 82 48 19 11 62 10 32 90 63 64 49 36 47 46 8 45 17 84 5 60 83 18 52 89\n",
+    "success": true
+  },
+  "r2_25.txt": {
+    "instance": "r2_25.txt",
+    "result": "Solution results\n================\n    # routes: 1\n     # trips: 1\n   # clients: 25\n   objective: 358\n    distance: 308\n    duration: 0\n# iterations: 137197\n    run-time: 60.00 seconds\n\nRoutes\n------\nRoute #1: 13 6 5 17 16 14 15 2 21 22 23 4 25 24 12 3 1 9 20 10 11 19 7 8 18\n",
+    "success": true
+  },
+  "r2_50.txt": {
+    "instance": "r2_50.txt",
+    "result": "Solution results\n================\n    # routes: 1\n     # trips: 1\n   # clients: 50\n   objective: 500\n    distance: 450\n    duration: 0\n# iterations: 83887\n    run-time: 60.00 seconds\n\nRoutes\n------\nRoute #1: 27 1 50 33 3 24 29 34 35 9 20 30 32 10 31 7 48 19 11 49 36 47 46 8 45 17 16 44 38 14 43 15 42 37 5 18 6 13 2 41 22 23 39 25 4 21 40 26 12 28\n",
+    "success": true
+  },
+  "rc1_100.txt": {
+    "instance": "rc1_100.txt",
+    "result": "Solution results\n================\n    # routes: 9\n     # trips: 9\n   # clients: 100\n   objective: 1401\n    distance: 951\n    duration: 0\n# iterations: 9554\n    run-time: 60.00 seconds\n\nRoutes\n------\nRoute #1: 53 12 14 47 17 16 15 13 11 10 82\nRoute #2: 65 99 52 86 74 58 75 97 59 87 9 90\nRoute #3: 57 77 25 23 21 48 18 19 49 20 64\nRoute #4: 66 83 24 22 51 76 89 63 85 84 56\nRoute #5: 95 62 50 33 32 30 28 26 27 29 31 34 67\nRoute #6: 81 54 72 71 93 96 94 92 91 80\nRoute #7: 41 39 38 37 35 36 40 43 44 42\nRoute #8: 68 61 70 1 3 5 45 46 4 2 100\nRoute #9: 55 6 8 7 79 73 78 60 88 98 69\n",
+    "success": true
+  },
+  "rc1_25.txt": {
+    "instance": "rc1_25.txt",
+    "result": "Solution results\n================\n    # routes: 3\n     # trips: 3\n   # clients: 25\n   objective: 441\n    distance: 291\n    duration: 0\n# iterations: 48532\n    run-time: 60.00 seconds\n\nRoutes\n------\nRoute #1: 10 11 9 13 15 16 17 14 12\nRoute #2: 24 25 23 21 18 19 22 20\nRoute #3: 6 7 8 5 3 1 4 2\n",
+    "success": true
+  },
+  "rc1_50.txt": {
+    "instance": "rc1_50.txt",
+    "result": "Solution results\n================\n    # routes: 5\n     # trips: 5\n   # clients: 50\n   objective: 760\n    distance: 510\n    duration: 0\n# iterations: 18078\n    run-time: 60.00 seconds\n\nRoutes\n------\nRoute #1: 1 3 5 45 4 46 8 7 6 2\nRoute #2: 22 24 25 23 21 48 18 19 49 20\nRoute #3: 50 33 32 30 28 26 27 29 31 34\nRoute #4: 10 11 9 13 15 16 17 47 14 12\nRoute #5: 41 39 38 37 35 36 40 43 44 42\n",
+    "success": true
+  },
+  "rc2_100.txt": {
+    "instance": "rc2_100.txt",
+    "result": "Solution results\n================\n    # routes: 2\n     # trips: 2\n   # clients: 100\n   objective: 734\n    distance: 634\n    duration: 0\n# iterations: 20017\n    run-time: 60.01 seconds\n\nRoutes\n------\nRoute #1: 68 70 100 55 88 60 2 1 3 5 45 4 46 8 6 7 79 73 78 12 14 47 17 16 15 13 11 10 9 87 59 97 75 58 77 25 23 21 48 18 19 49 20 22 24 57 74 86 52 99 82 53 98 69\nRoute #2: 80 91 92 94 96 54 81 61 42 44 43 40 36 35 37 38 39 41 72 71 93 67 62 50 34 31 29 27 26 28 30 32 33 89 76 63 85 51 84 95 56 64 83 66 65 90\n",
+    "success": true
+  },
+  "rc2_25.txt": {
+    "instance": "rc2_25.txt",
+    "result": "Solution results\n================\n    # routes: 1\n     # trips: 1\n   # clients: 25\n   objective: 271\n    distance: 221\n    duration: 0\n# iterations: 126657\n    run-time: 60.00 seconds\n\nRoutes\n------\nRoute #1: 24 22 20 19 18 21 23 25 9 10 11 13 15 16 17 14 12 7 6 8 5 3 1 4 2\n",
+    "success": true
+  },
+  "rc2_50.txt": {
+    "instance": "rc2_50.txt",
+    "result": "Solution results\n================\n    # routes: 1\n     # trips: 1\n   # clients: 50\n   objective: 413\n    distance: 363\n    duration: 0\n# iterations: 84126\n    run-time: 60.00 seconds\n\nRoutes\n------\nRoute #1: 50 34 31 29 27 26 28 30 32 33 18 48 21 23 25 19 49 20 22 24 9 10 11 13 15 16 17 47 14 12 7 6 2 8 46 4 45 5 3 1 42 44 43 40 36 35 37 38 39 41\n",
+    "success": true
+  }
+}
