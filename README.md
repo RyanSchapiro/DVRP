@@ -1,6 +1,6 @@
 # SCVRP-RL
 
-Implementation of differing methods for the stochastic capacitated vehicle routing problem (SCVRP). This repository combines classical heuristics, adaptive large neighbourhood search, reinforcement learning with Stable-Baselines3, and an experimental PyVRP pipeline while keeping a common Solomon-style instance format and Poisson arrival model.
+Implementation of differing methods for the stochastic capacitated vehicle routing problem (SCVRP). This repository combines classical heuristics, adaptive large neighbourhood search, reinforcement learning with Stable-Baselines3, and PyVRPs Genetic Algorithm solver as a baseline for adapted Solomon instances using a Poisson arrival model.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -19,7 +19,7 @@ Implementation of differing methods for the stochastic capacitated vehicle routi
 
 ## Project Overview
 - **Problem setting:** Customers are revealed through a Poisson process and must be serviced by capacitated vehicles. Each solver shares the same demand generator, distance computation, and vehicle penalty scheme (fixed cost of 50 per vehicle).
-- **Algorithms covered:**
+- **Algorithms implemented:**
   - Clarke-Wright savings heuristic adapted for dynamic arrivals.
   - Adaptive Large Neighbourhood Search with destroy/repair operators and Record-to-Record acceptance.
   - Soft Actor-Critic (SAC) agent with a Graph Attention Network feature extractor and action wrapper for discrete routing decisions.
@@ -170,9 +170,9 @@ Average results obtained across all instances (20 seeds per instance):
 - The SAC agent achieves full completion but currently trails in cost; reward shaping and curriculum learning are promising future improvements.
 
 ## Acknowledgements
-- Solomon benchmark suite for providing standard VRPTW instances.
-- [ALNS Python package](https://github.com/ALNS-Python/alns) and [PyVRP](https://github.com/Pieter-JanVos/pyvrp) for optimisation backbones.
+- Solomon benchmark suite for VRPTW instances.
+- [ALNS Python package](https://github.com/ALNS-Python/alns) and [PyVRP](https://github.com/Pieter-JanVos/pyvrp) for ALNS backbone and Baseline solver.
 - [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3) and [Gymnasium](https://gymnasium.farama.org/) for reinforcement learning tooling.
-- TensorBoard, Matplotlib, and Seaborn for helping visualise training curves and comparative results.
+- TensorBoard, Matplotlib, and Seaborn for visualizing and comparing results.
 
 Questions, ideas, or contributions are always welcome—open an issue or start a discussion!
