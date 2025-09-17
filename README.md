@@ -1,6 +1,6 @@
 # SCVRP-RL
 
-Implementation of differing methods for the stochastic capacitated vehicle routing problem (SCVRP). The repository combines classical heuristics, adaptive large neighbourhood search, reinforcement learning with Stable-Baselines3, and an experimental PyVRP pipeline while keeping a common Solomon-style instance format and Poisson arrival model.
+Implementation of differing methods for the stochastic capacitated vehicle routing problem (SCVRP). This repository combines classical heuristics, adaptive large neighbourhood search, reinforcement learning with Stable-Baselines3, and an experimental PyVRP pipeline while keeping a common Solomon-style instance format and Poisson arrival model.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
