@@ -125,8 +125,7 @@ New/
   cd New/Ryan
   python3 solver.py
   ```
-  Tweak the `filename`, `vehicle_fixed_cost`, and `runtime_seconds` constants near the top to target different scenarios. The resulting plots provide a quick sanity check on the GA routes.
-
+  
 ## Evaluation Artifacts
 - `*_metrics.csv`: Aggregated statistics (success rate, feasibility rate, best/avg/worst cost, deviation from optimal, compute time, vehicle usage).
 - `*_detailed.csv`: Per-seed records for deeper analysis or plotting.
@@ -135,7 +134,7 @@ New/
 - Optimality gaps are calculated against the PyVRP GA baselines stored in `optimal_solutions.json`.
 
 ## Project Paper
-- `New/Ryan/DVRP_SCHRYA010.pdf` contains the accompanying manuscript describing the experimental setup, solver configurations, and empirical findings. Update this file when new revisions of the paper are available so the repository and documentation stay in sync.
+- `New/Ryan/DVRP_SCHRYA010.pdf` contains the accompanying paper describing the experimental setup and empirical findings.
 
 ## Reproducing Experiments
 1. Ensure datasets exist in `New/Dataset/files/` (regenerate with `reducer.py` if needed).
@@ -158,7 +157,7 @@ New/
    - Static plots or custom dashboards generated with `plots.py`.
 
 ## Results Snapshot
-Average behaviour on a representative Solomon subset (20 seeds per instance):
+Average results obtained across all instances (20 seeds per instance):
 
 | Algorithm        | Success Rate | Avg Gap vs Baseline | Avg Solve Time |
 |------------------|-------------:|--------------------:|---------------:|
