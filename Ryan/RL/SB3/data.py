@@ -31,7 +31,7 @@ def Poisson(dim, stat=0.7, lam=0.4, seed=None):
     rng = np.random.RandomState(seed)
     random_gen = random.Random(seed)
 
-    customers = list(range(1, dim))  # exclude depot
+    customers = list(range(1, dim))
     random_gen.shuffle(customers)
     split = int(stat * len(customers))
     static = customers[:split]

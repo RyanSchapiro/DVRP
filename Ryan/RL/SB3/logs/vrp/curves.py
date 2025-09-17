@@ -5,60 +5,45 @@ import seaborn as sns
 from matplotlib.patches import Rectangle
 import matplotlib.patches as mpatches
 
-def create_training_plot(file_paths, save_path=None):
-    """
-    Create a publication-quality training plot for RL models.
-    
-    Args:
-        file_paths: dict with model names and file paths
-        save_path: path to save figure (optional)
-    """
-    # Set up the plot style
+def plot_training(file_paths, save_path=None):
     plt.style.use('seaborn-v0_8-whitegrid')
     fig, ax = plt.subplots(figsize=(12, 8))
     
-    # Define colors and styles for each model
     colors = {
-        'R-Model': "#E53BB2",    # Professional blue
-        'C-Model': "#F50202",    # Deep magenta
-        'RC-Model': "#090600"    # Warm orange
+        'R-Model': "#E53BB2",
+        'C-Model': "#F50202",
+        'RC-Model': "#090600"
     }
     
-    # Load and plot data
     for model_name, file_path in file_paths.items():
         df = pd.read_csv(file_path)
         steps = df['Step']
         values = df['Value']
         
-        # Plot the training curve
         ax.plot(steps, values, 
                color=colors[model_name], 
                linewidth=2.5, 
                alpha=0.8,
                label=model_name)
     
-    # Customize the plot
     ax.set_xlabel('Training Steps', fontsize=14, fontweight='bold')
     ax.set_ylabel('Episode Reward', fontsize=14, fontweight='bold')
     
-    # Format axes
     ax.tick_params(axis='both', which='major', labelsize=12)
     ax.grid(True, alpha=0.3, linewidth=0.8)
     ax.set_facecolor("#FFFFFF")
     
-    # Create fancy legend
     legend_elements = []
     for model_name, color in colors.items():
         if model_name == 'R-Model':
             label = 'Random Instances (R-Type)'
         elif model_name == 'C-Model':
             label = 'Clustered Instances (C-Type)'
-        else:  # RC-Model
+        else:
             label = 'Random-Clustered Instances (RC-Type)'
         
         legend_elements.append(mpatches.Patch(color=color, label=label))
     
-    # Position legend with fancy styling
     legend = ax.legend(handles=legend_elements,
                    bbox_to_anchor=(0.5, -0.15),
                    loc='upper center',
@@ -74,26 +59,21 @@ def create_training_plot(file_paths, save_path=None):
                    title_fontsize=13)
     legend.get_title().set_fontweight('bold')
     
-    # Format numbers on axes
     ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f'{x:,.0f}'))
     ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, p: f'{x:,.0f}'))
     
-    # Adjust layout and styling
     plt.tight_layout()
     
-    # Add border around the plot
     for spine in ax.spines.values():
         spine.set_edgecolor("#FBF8F8")
         spine.set_linewidth(1.2)
     
-    # Save if path provided
     if save_path:
         plt.savefig(save_path, dpi=300, bbox_inches='tight', 
                    facecolor='white', edgecolor='none')
     
     plt.show()
 
-# Usage example
 if __name__ == "__main__":
     file_paths = {
         'R-Model': 'R_R-model.csv',
@@ -101,4 +81,4 @@ if __name__ == "__main__":
         'RC-Model': 'RC_RC-model.csv'
     }
     
-    create_training_plot(file_paths, save_path='sac_training_curves.png')
+    plot_training(file_paths, save_path='sac_training_curves.png')

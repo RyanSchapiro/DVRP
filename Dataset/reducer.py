@@ -34,7 +34,7 @@ def parse_solomon_file(filepath):
         if not line.strip():
             continue
         parts = line.split()
-        # Keep: CUST NO, X, Y, DEMAND
+        #Customer number, x, y, demand
         cust_id = int(parts[0])
         x = float(parts[1])
         y = float(parts[2])
@@ -58,7 +58,7 @@ def write_reduced(customers, outpath, instance_name, vehicle_count, capacity):
             f.write(f"{cust_id} {x} {y} {demand}\n")
 
 def main():
-    # Use glob to find all input files!
+    # Use glob to find all input files
     input_files = glob.glob("./solomon100_instances/*.txt")
     output_dir = "reduced_instances"
     os.makedirs(output_dir, exist_ok=True)

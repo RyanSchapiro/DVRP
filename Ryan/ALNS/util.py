@@ -7,15 +7,6 @@ import os
 import numpy as np
 
 def load_data(filename):
-    """
-    Loads instance data from a file with customer coordinates and demands.
-    The file format is expected to be:
-    NAME: ...
-    VEHICLES: ...
-    CAPACITY: ...
-    CUSTNO XCOORD YCOORD DEMAND
-    ...
-    """
     with open(filename, "r") as f:
         lines = [line.strip() for line in f if line.strip()]
 
@@ -35,21 +26,15 @@ def load_data(filename):
     return coords, demands, vehicle_capacity, vehicle_count
 
 def Poisson(dim, static_ratio=0.7, lambda_rate=0.4, seed=None):
-    """
-    Splits customers into static and dynamic with Poisson arrival times.
-    """
-    # Use a local RandomState to not interfere with global numpy state
-    # and to be controlled by the seed.
+
     rng = np.random.RandomState(seed)
     random_gen = random.Random(seed)
 
-    customers = list(range(1, dim))  # exclude depot
+    customers = list(range(1, dim)) 
     random_gen.shuffle(customers)
     split = int(static_ratio * len(customers))
     static = customers[:split]
     dynamic = customers[split:]
     arrivals = np.cumsum(rng.exponential(scale=1/lambda_rate, size=len(dynamic))).astype(int)
-    # Ensure all arrival times are at least 1, since the simulation starts at t=1.
-    # A customer with arrival time 0 would otherwise be missed.
     arrivals = np.maximum(1, arrivals)
     return set(static), {c: t for c, t in zip(dynamic, arrivals)}
