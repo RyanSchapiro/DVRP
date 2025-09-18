@@ -165,9 +165,9 @@ Average results obtained across all instances (20 seeds per instance):
 | ALNS             | 1.00         | 0.05%               | 27.71 s        |
 | SAC (RL)         | 1.00         | 18.98%              | 0.50 s         |
 
-- ALNS delivers near-optimal solutions at the cost of runtime and maintained 100% feasibility across the tested instances.
+- ALNS provides optimal/near-optimal solutions at the cost of runtime and maintained 100% feasibility across the tested instances.
 - Clarke-Wright remains a fast, feasible baseline with modest gaps.
-- The SAC agent achieves full completion but currently trails in cost; reward shaping and curriculum learning are promising future improvements.
+- The SAC agent achieves full completion but currently trails in cost.
 
 ## Acknowledgements
 - Solomon benchmark suite for VRPTW instances.
