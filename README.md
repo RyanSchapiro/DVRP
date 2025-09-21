@@ -71,7 +71,7 @@ New/
 **Key packages explained:**
 - `alns` powers the Adaptive Large Neighbourhood Search operators.
 - `gymnasium`, `stable-baselines3`, `torch`, and `tensorboard` support the RL stack.
-- `pyvrp` underpins the experimental solver in `New/Ryan/solver.py` and requires a working C++ toolchain.
+- `pyvrp` underpins the experimental solver in `New/Ryan/solver.py
 - `matplotlib`, `seaborn`, `pandas`, and `numpy` back visualisation and data analysis scripts.
 
 ## Core Components
